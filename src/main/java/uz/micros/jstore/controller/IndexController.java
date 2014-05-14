@@ -12,15 +12,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class IndexController {
 
-    @ResponseBody
+     @ResponseBody
      @RequestMapping(value = "/", method = RequestMethod.GET)
      public String showIndex(){
-        return "<h2>Hello World spring!!!</h2>";
+        return "<h2>Hello World spring!!!</h2>" +
+                "" +
+                "<a href=\"home\">Home</a>";
     }
 
-    @ResponseBody
-    @RequestMapping(value = "/fe", method = RequestMethod.GET)
+
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
     public String showIndex1(){
-        return "<h2>Hello World spring 222222!!!</h2>";
+        return "home";
     }
 }
