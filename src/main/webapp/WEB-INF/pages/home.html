@@ -1,9 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>thymeleaf</title>
 </head>
 <body>
     <h2>Thymeleaf!!!!!!!</h2>
+
+    <h3 th:text="${name}">akbar</h3>
+
+    <p>My name is: <span th:text="${author.name}"></span></p>
+
+    <ul>
+        <li th:each="s : ${authors}">
+            Name is <span th:text="${s.name}"></span>
+        </li>
+    </ul>
+
+    <form action="/save" method="post">
+        <input type="text" name="title"/>
+        <input type="submit" value="Save"/>
+    </form>
+
+    <form action="/save2" method="post" th:object="${newAuthor}">
+        <input type="text" th:field="*{name}"/>
+        <input type="text" th:field="*{name}"/>
+        <input type="text" th:field="*{name}"/>
+        <input type="submit" value="Save"/>
+    </form>
+
 </body>
 </html>

@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30217196-8977-47d3-98e6-8d0a92decff8" name="Default" comment="rererer&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_16_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/ViewConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/Author.java" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\classes\uz\micros\jstore\config\AppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\classes\uz\micros\jstore\config\ViewConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\classes\uz\micros\jstore\config\WebInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\classes\uz\micros\jstore\config\WebMvcConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\classes\uz\micros\jstore\controller\IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\javassist-3.16.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\jstl-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\ognl-3.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\slf4j-api-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\spring-aop-4.0.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\spring-beans-4.0.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\spring-context-4.0.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\spring-core-4.0.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\spring-expression-4.0.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\spring-web-4.0.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\spring-webmvc-4.0.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\thymeleaf-2.1.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\thymeleaf-spring4-2.1.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\lib\unbescape-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\pages\home.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\Jstore\WEB-INF\pages\home.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\classes\uz\micros\jstore\config\AppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\classes\uz\micros\jstore\config\ViewConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\classes\uz\micros\jstore\config\WebInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\classes\uz\micros\jstore\config\WebMvcConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\java_work\jstore\target\classes\uz\micros\jstore\controller\IndexController.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jstore.iml" afterPath="$PROJECT_DIR$/Jstore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Jstore_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Jstore_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -86,20 +101,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="27" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1428">
-              <folding>
-                <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-                <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-                <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-              </folding>
+            <state line="1" column="9" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewConfig.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ViewConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/ViewConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="38" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.7556468" vertical-offset="329" max-vertical-offset="952">
+            <state line="41" column="38" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="952">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="98" selection-end="98" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+            <state line="27" column="18" selection-start="735" selection-end="735" vertical-scroll-proportion="0.63123643" vertical-offset="168" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -119,10 +130,8 @@
       <file leaf-file-name="WebInitializer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="30" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="901">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="33" column="30" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1037">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,9 +139,20 @@
       <file leaf-file-name="IndexController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="44" selection-start="605" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="48" column="54" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Author.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="29" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,7 +170,7 @@
       <file leaf-file-name="AppConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="23" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -159,8 +179,10 @@
       <file leaf-file-name="WebMvcConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
-              <folding />
+            <state line="13" column="13" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,12 +213,13 @@
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/helloWrldServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/ViewConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/Author.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html" />
       </list>
     </option>
   </component>
@@ -225,10 +248,6 @@
           <option name="myItemId" value="Jstore Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -242,52 +261,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Plugins" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Jstore Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tomcat7" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Jstore Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="jetty" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Jstore Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -324,7 +297,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -418,6 +390,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -454,6 +456,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,6 +764,25 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="LOCAL" value="false" />
       <deployment />
@@ -779,25 +801,6 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="tomcat12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.5" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -899,12 +902,13 @@
       <workItem from="1399719824246" duration="906000" />
       <workItem from="1399900229675" duration="6450000" />
       <workItem from="1400072538373" duration="1435000" />
-      <workItem from="1400074654904" duration="5185000" />
+      <workItem from="1400074654904" duration="5530000" />
+      <workItem from="1400245535039" duration="6547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23431000" />
+    <option name="totallyTimeSpent" value="30323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="860" extended-state="0" />
@@ -963,30 +967,89 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+        <state line="44" column="27" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/ViewConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="38" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="952">
           <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="98" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="578">
+        <state line="33" column="30" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="605" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="39" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="33" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Jstore.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="53" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="98" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +1063,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="33" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,29 +1079,21 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="33" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="969">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="98" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="578">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="17" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +1107,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="33" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,66 +1123,42 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="28" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="969">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="28" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="969">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="20" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="969">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="34" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="867">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="34" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="867">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="31" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="799">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,52 +1174,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="160" selection-end="160" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="605" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="30" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="901">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="27" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1428">
-          <folding>
-            <marker date="1400078889774" expanded="true" signature="104:2353" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="662:1730" placeholder="..." />
-            <marker date="1400078889774" expanded="true" signature="1326:1496" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="98" selection-end="98" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
@@ -1196,12 +1188,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="9" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/ViewConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="38" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.7556468" vertical-offset="329" max-vertical-offset="952">
+        <state line="41" column="38" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="952">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="39" selection-start="160" selection-end="160" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="54" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="735" selection-end="735" vertical-scroll-proportion="0.63123643" vertical-offset="168" max-vertical-offset="629">
+          <folding />
         </state>
       </provider>
     </entry>
