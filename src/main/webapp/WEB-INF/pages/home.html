@@ -2,16 +2,22 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>thymeleaf</title>
+    <!--<link rel="stylesheet" href="/resources/css/bootstrap.min.css"/>-->
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.1.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" href="/resources/css/site.css" type="text/css"/>
 </head>
 <body>
+
+<div class="container-fluid">
     <h2>Thymeleaf!!!!!!!</h2>
 
     <h3 th:text="${name}">akbar</h3>
 
-    <p>My name is: <span th:text="${author.name}"></span></p>
+    <p class="author-name">My name is: <span th:text="${author.name}"></span></p>
 
     <ul>
-        <li th:each="s : ${authors}">
+        <li th:each="s : ${authors}" class="author-name">
             Name is <span th:text="${s.name}"></span>
         </li>
     </ul>
@@ -27,6 +33,16 @@
         <input type="text" th:field="*{name}"/>
         <input type="submit" value="Save"/>
     </form>
+</div>
+
+
+    <script th:src="@{/webjars/jquery/2.1.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/3.1.1/js/bootstrap.min.js}"></script>
+
+    <!--    <script src="/resources/js/jquery-2.1.1.min.js"></script>
+    <script src="/resources/js/bootstrap.min.js"></script>-->
+    <script src="/resources/js/site.js"></script>
+
 
 </body>
 </html>
