@@ -16,16 +16,7 @@ import java.util.List;
 @Controller
 public class IndexController {
 
-     @ResponseBody
-     @RequestMapping(value = "/", method = RequestMethod.GET)
-     public String showIndex(){
-        return "<h2>Hello World spring!!!</h2>" +
-                "" +
-                "<a href=\"home\">Home</a>";
-    }
-
-
-    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView showIndex1(HttpSession session){
 
         Author a = new Author();
