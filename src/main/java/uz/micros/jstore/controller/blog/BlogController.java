@@ -7,9 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import uz.micros.jstore.entity.blog.Blog;
 import uz.micros.jstore.service.blog.BlogService;
 
-/**
- * Created by java on 21.05.14.
- */
 @Controller
 @RequestMapping("/blog")
 public class BlogController {

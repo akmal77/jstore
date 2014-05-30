@@ -1,1 +1,1 @@
-alert('Salomlar')
+//alert('hi');

@@ -1,10 +1,8 @@
 package uz.micros.jstore.entity.blog;
 
+
 import java.util.List;
 
-/**
- * Created by java on 21.05.14.
- */
 public class Blog {
     private String title;
     private List<Post> posts;

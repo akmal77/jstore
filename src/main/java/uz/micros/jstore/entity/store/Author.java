@@ -1,10 +1,6 @@
-package uz.micros.jstore.entity;
+package uz.micros.jstore.entity.store;
 
-/**
- * Created by java on 16.05.14.
- */
 public class Author {
-
     private String name;
 
     public String getName() {
