@@ -1,7 +1,23 @@
 .author-name{
     background-color: darkseagreen;
 }
-
-.post-date{
-    color:gray;
+body{
+    background-color: #dddeee;
+}
+.post_date{
+    color: grey;
+    font-size: 12px;
+}
+textarea{
+    resize: none;
+}
+.post_date, .post_author{
+    font-size: 12px;
+    color: rgba(61, 147, 40, 0.84);
+    margin: 0px;
+    margin-top: 2px;
+}
+.comment_block hr{
+    margin-top: 0px;
+    border-top: 2px solid #285e8e;
 }

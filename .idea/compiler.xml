@@ -22,9 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Jstore" />
+        <module name="jstore" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jstore" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

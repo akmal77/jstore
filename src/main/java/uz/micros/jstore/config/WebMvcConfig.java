@@ -9,7 +9,6 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import uz.micros.jstore.util.Interceptor;
 
-
 @EnableWebMvc
 @Configuration
 @ComponentScan
@@ -19,7 +18,6 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter{
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
     }
-
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
