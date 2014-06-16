@@ -4,6 +4,7 @@ import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.hibernate4.HibernateTransactionManager;
@@ -21,6 +22,22 @@ import java.util.Properties;
 @EnableTransactionManagement
 public class PersistenceConfig {
 
+    @Value("${hibernate.dialect}")
+    private String dialect;
+    @Value("${hibernate.show_sql}")
+    private String showSql;
+    @Value("${hibernate.hbm2ddl.auto}")
+    private String ddl;
+
+    @Value("${jdbc.driver}")
+    private String driver;
+    @Value("${jdbc.user}")
+    private String userName;
+    @Value("${jdbc.password}")
+    private String password;
+    @Value("${jdbc.url}")
+    private String url;
+
     @Bean
     public LocalSessionFactoryBean sessionFactory(){
         LocalSessionFactoryBean res = new LocalSessionFactoryBean();
@@ -36,9 +53,9 @@ public class PersistenceConfig {
 
         Properties res = new Properties();
 
-        res.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
-        res.setProperty("hibernate.hbm2ddl.auto", "update");
-        res.setProperty("hibernate.show_sql", "true");
+        res.setProperty("hibernate.dialect", dialect);
+        res.setProperty("hibernate.hbm2ddl.auto", ddl);
+        res.setProperty("hibernate.show_sql", showSql);
 
         return res;
     }
@@ -46,10 +63,10 @@ public class PersistenceConfig {
     private DataSource getDataSource() {
         BasicDataSource res = new BasicDataSource();
 
-        res.setDriverClassName("com.mysql.jdbc.Driver");
-        res.setUrl("jdbc:mysql://localhost:3306/jstore");
-        res.setUsername("root");
-        res.setPassword("123456");
+        res.setDriverClassName(driver);
+        res.setUrl(url);
+        res.setUsername(userName);
+        res.setPassword(password);
 
         return res;
     }
